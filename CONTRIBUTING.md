@@ -10,6 +10,8 @@ Community bug reports and contributions are always welcome.
 * Commit your changes
 * Send a pull request with the label "New Icon".
 
+Only icons deemed relevant will be merged.
+
 ## Requesting a new icon
 * Please create and issue describing the icon requesting and the reasons / context. Add the label "Icon Request".
 
