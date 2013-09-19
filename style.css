@@ -1,0 +1,225 @@
+@font-face {
+	font-family: 'WooCommerce';
+	src:url('fonts/WooCommerce.eot');
+	src:url('fonts/WooCommerce.eot?#iefix') format('embedded-opentype'),
+		url('fonts/WooCommerce.woff') format('woff'),
+		url('fonts/WooCommerce.ttf') format('truetype'),
+		url('fonts/WooCommerce.svg#WooCommerce') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'WooCommerce';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="wcicon-"] {
+*/
+.wcicon-virtual, .wcicon-grouped, .wcicon-variable, .wcicon-expand, .wcicon-right, .wcicon-up, .wcicon-down, .wcicon-left, .wcicon-image, .wcicon-link, .wcicon-calendar, .wcicon-processing, .wcicon-view, .wcicon-status-processing, .wcicon-status-pending, .wcicon-status-cancelled, .wcicon-status-refunded, .wcicon-status-completed, .wcicon-status-failed, .wcicon-check, .wcicon-query, .wcicon-truck-1, .wcicon-truck-2, .wcicon-globe, .wcicon-gear, .wcicon-cart, .wcicon-card, .wcicon-stats, .wcicon-star-full, .wcicon-star-empty, .wcicon-up-down, .wcicon-reports, .wcicon-search, .wcicon-search-2, .wcicon-user, .wcicon-windows, .wcicon-note, .wcicon-east, .wcicon-north, .wcicon-attributes, .wcicon-inventory, .wcicon-mail, .wcicon-south, .wcicon-west, .wcicon-share, .wcicon-refresh, .wcicon-navigation, .wcicon-contract, .wcicon-downloadable, .wcicon-plus, .wcicon-simple, .wcicon-on-hold, .wcicon-external, .wcicon-contract-2, .wcicon-expand-2, .wcicon-phone, .wcicon-user-2, .wcicon-status, .wcicon-user-fill, .wcicon-phone-fill, .wcicon-status-fill, .wcicon-woo {
+	font-family: 'WooCommerce';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.wcicon-virtual:before {
+	content: "\e000";
+}
+.wcicon-grouped:before {
+	content: "\e002";
+}
+.wcicon-variable:before {
+	content: "\e003";
+}
+.wcicon-expand:before {
+	content: "\e005";
+}
+.wcicon-right:before {
+	content: "\e008";
+}
+.wcicon-up:before {
+	content: "\e009";
+}
+.wcicon-down:before {
+	content: "\e00a";
+}
+.wcicon-left:before {
+	content: "\e00b";
+}
+.wcicon-image:before {
+	content: "\e00c";
+}
+.wcicon-link:before {
+	content: "\e00d";
+}
+.wcicon-calendar:before {
+	content: "\e00e";
+}
+.wcicon-processing:before {
+	content: "\e00f";
+}
+.wcicon-view:before {
+	content: "\e010";
+}
+.wcicon-status-processing:before {
+	content: "\e011";
+}
+.wcicon-status-pending:before {
+	content: "\e012";
+}
+.wcicon-status-cancelled:before {
+	content: "\e013";
+}
+.wcicon-status-refunded:before {
+	content: "\e014";
+}
+.wcicon-status-completed:before {
+	content: "\e015";
+}
+.wcicon-status-failed:before {
+	content: "\e016";
+}
+.wcicon-check:before {
+	content: "\e017";
+}
+.wcicon-query:before {
+	content: "\e018";
+}
+.wcicon-truck-1:before {
+	content: "\e019";
+}
+.wcicon-truck-2:before {
+	content: "\e01a";
+}
+.wcicon-globe:before {
+	content: "\e01b";
+}
+.wcicon-gear:before {
+	content: "\e01c";
+}
+.wcicon-cart:before {
+	content: "\e01d";
+}
+.wcicon-card:before {
+	content: "\e01e";
+}
+.wcicon-stats:before {
+	content: "\e01f";
+}
+.wcicon-star-full:before {
+	content: "\e020";
+}
+.wcicon-star-empty:before {
+	content: "\e021";
+}
+.wcicon-up-down:before {
+	content: "\e022";
+}
+.wcicon-reports:before {
+	content: "\e023";
+}
+.wcicon-search:before {
+	content: "\e024";
+}
+.wcicon-search-2:before {
+	content: "\e025";
+}
+.wcicon-user:before {
+	content: "\e026";
+}
+.wcicon-windows:before {
+	content: "\e027";
+}
+.wcicon-note:before {
+	content: "\e028";
+}
+.wcicon-east:before {
+	content: "\e029";
+}
+.wcicon-north:before {
+	content: "\e02a";
+}
+.wcicon-attributes:before {
+	content: "\e02b";
+}
+.wcicon-inventory:before {
+	content: "\e02c";
+}
+.wcicon-mail:before {
+	content: "\e02d";
+}
+.wcicon-south:before {
+	content: "\e02e";
+}
+.wcicon-west:before {
+	content: "\e02f";
+}
+.wcicon-share:before {
+	content: "\e030";
+}
+.wcicon-refresh:before {
+	content: "\e031";
+}
+.wcicon-navigation:before {
+	content: "\e032";
+}
+.wcicon-contract:before {
+	content: "\e004";
+}
+.wcicon-downloadable:before {
+	content: "\e001";
+}
+.wcicon-plus:before {
+	content: "\e007";
+}
+.wcicon-simple:before {
+	content: "\e006";
+}
+.wcicon-on-hold:before {
+	content: "\e033";
+}
+.wcicon-external:before {
+	content: "\e034";
+}
+.wcicon-contract-2:before {
+	content: "\e036";
+}
+.wcicon-expand-2:before {
+	content: "\e035";
+}
+.wcicon-phone:before {
+	content: "\e037";
+}
+.wcicon-user-2:before {
+	content: "\e038";
+}
+.wcicon-status:before {
+	content: "\e039";
+}
+.wcicon-user-fill:before {
+	content: "\e03a";
+}
+.wcicon-phone-fill:before {
+	content: "\e03b";
+}
+.wcicon-status-fill:before {
+	content: "\e03c";
+}
+.wcicon-woo:before {
+	content: "\e03d";
+}
