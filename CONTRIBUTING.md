@@ -1,5 +1,5 @@
 # Contributing
-==============
+
 Community bug reports and contributions are always welcome.
 
 ## Creating a new icon
