@@ -13,27 +13,27 @@ When using the icons in a WooCommerce extension.
 2. Use the built-in functions to set an icon, e.g.
 ```// Hides an elements content, reshapes it into a 1em x 1em square containing a centrally aligned icon
 .icon {
-	.ir; 				// Icon replacement
+    .ir; 				// Icon replacement
 }
 .icon:before {
-	.icon; 				// Icon styles
-	content: "\e000";	// Glyph
+    .icon; 				// Icon styles
+    content: "\e000";	// Glyph
 }```
 
 Or:
 
 ```// Prepends an element with an icon
 .icon-link:before {
-	.iconbefore;
-	content: "\e000";
+    .iconbefore;
+    content: "\e000";
 }```
 
 Or:
 
 ```// Appends an element with an icon
 .icon-link:after {
-	.iconafter;
-	content: "\e000";
+    .iconafter;
+    content: "\e000";
 }```
 
 ## Changelog
