@@ -18,8 +18,7 @@ When using the icons in a WooCommerce extension.
     .ir; 				// Icon replacement
 }
 .icon:before {
-    .icon; 				// Icon styles
-    content: "\e000";	// Glyph
+    .icon( "\e000" ); 	// Icon styles and glyph
 }
 ```
 
@@ -28,8 +27,7 @@ Or:
 ```
 // Prepends an element with an icon
 .icon-link:before {
-    .iconbefore;		// Icon replacement
-    content: "\e000";	// Glyph
+    .iconbefore( "\e000" );		// Icon styles and glyph
 }
 ```
 
@@ -38,8 +36,8 @@ Or:
 ```
 // Appends an element with an icon
 .icon-link:after {
-    .iconafter;			// Icon replacement
-    content: "\e000";	// Glyph
+    .iconafter( "\e000" );		// Icon styles and glyph
+
 }
 ```
 
