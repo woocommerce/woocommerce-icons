@@ -1,5 +1,4 @@
 # WooCommerce Icon Font 1.0
-===========================
 The font used throughout the WooCommerce UI for all icons. Designed by WooThemes, compiled using [IcoMoon](http://icomoon.io/).
 
 ## Usage - Independent
@@ -11,6 +10,7 @@ When using the icons in a separate project.
 When using the icons in a WooCommerce extension.
 * Include the WooCommerce `mixins.less` file in your plugin's .less file: `@import '../../../woocommerce/assets/css/mixins.less';` (Based on your .less being located at `your-plugins/assets/css/yourstyles.less`).
 * Use the built-in functions to set an icon, e.g:
+
 ```
 // Hides an elements content, reshapes it into a 1em x 1em square containing a centrally aligned icon
 .icon {
