@@ -4,7 +4,7 @@ Community bug reports and contributions are always welcome.
 
 ## Creating a new icon
 * Create your .svg.
-* Import `fonts/WooCommerce.dev.svg` to the [IcoMoon App](http://icomoon.io/app/).
+* Import `selection.json` to the [IcoMoon App](http://icomoon.io/app/).
 * Import your new icon .svg and label it appropriately.
 * Export the font.
 * Commit your changes
