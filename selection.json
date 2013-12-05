@@ -1300,6 +1300,25 @@
 				"name": "restricted",
 				"ligatures": ""
 			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M999.966 144.581l-120.121-120.121c-31.84-31.84-83.478-31.84-115.318 0l-678.648 678.632-85.832 320.339 320.339-85.832 0.948 0.948 678.648-678.648c31.84-31.84 31.84-83.478-0.016-115.318zM107.401 866.383l34.162-127.5 143.049 143.049-127.5 34.162-49.711-49.711zM827.891 342.824l-146.304-146.304 120.184-120.184 146.304 146.304-120.184 120.184z"
+				],
+				"grid": 0,
+				"tags": [
+					"edit"
+				]
+			},
+			"properties": {
+				"order": 66,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58883,
+				"name": "edit",
+				"ligatures": ""
+			}
 		}
 	],
 	"height": 1024,
@@ -1310,5 +1329,45 @@
 		"designerURL": "http://jameskoster.co.uk",
 		"license": "SIL OFL",
 		"licenseURL": "http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "wcicon-",
+			"metadata": {
+				"fontFamily": "WooCommerce",
+				"fontURL": "http://woothemes.com",
+				"designer": "James Koster",
+				"designerURL": "http://jameskoster.co.uk",
+				"license": "SIL OFL",
+				"licenseURL": "http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": true,
+			"includeMetadata": true
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true
 	}
 }

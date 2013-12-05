@@ -1,4 +1,4 @@
-# WooCommerce Icon Font 1.0.1
+# WooCommerce Icon Font 1.0.2
 The font used throughout the WooCommerce UI for all icons. Designed by WooThemes, compiled using [IcoMoon](http://icomoon.io/).
 
 ## Usage - Independent
@@ -44,5 +44,9 @@ Or:
 See `index.html` for the glyph references.
 
 ## Changelog
+
+### 12.05.2013 - 1.0.2
+* Added edit icon
+
 ### 09.19.2013
 * Initial Release!

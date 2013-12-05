@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-[class*="wcicon-"] {
+[class^="wcicon-"], [class*=" wcicon-"] {
 	font-family: 'WooCommerce';
 	speak: none;
 	font-style: normal;
@@ -217,4 +217,7 @@
 }
 .wcicon-restricted:before {
 	content: "\e602";
+}
+.wcicon-edit:before {
+	content: "\e603";
 }
