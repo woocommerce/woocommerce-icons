@@ -1,4 +1,4 @@
-# WooCommerce Icon Font 1.0.2
+# WooCommerce Icon Font 1.0.3
 The font used throughout the WooCommerce UI for all icons. Designed by WooThemes, compiled using [IcoMoon](http://icomoon.io/).
 
 ## Usage - Independent
@@ -9,16 +9,16 @@ When using the icons in a separate project.
 
 ## Usage - In WooCommerce extensions
 When using the icons in a WooCommerce extension.
-* Include the WooCommerce `mixins.less` file in your plugin's .less file: `@import '../../../woocommerce/assets/css/mixins.less';` (Based on your .less being located at `your-plugins/assets/css/yourstyles.less`).
+* Include the WooCommerce `mixins.scss` file in your plugin's .scss file: `@import '../../../woocommerce/assets/css/mixins.scss';` (Based on your .scss being located at `your-plugins/assets/css/yourstyles.scss`).
 * Use WooCommerce' built-in functions to set an icon, e.g:
 
 ```
 // Hides an elements content, reshapes it into a 1em x 1em square containing a centrally aligned icon
 .icon {
-    .ir; 				// Icon replacement
+    @include .ir; 				// Icon replacement
 }
 .icon:before {
-    .icon( "\e000" ); 	// Icon styles and glyph
+    @include .icon( "\e000" ); 	// Icon styles and glyph
 }
 ```
 
@@ -27,7 +27,7 @@ Or:
 ```
 // Prepends an element with an icon
 .icon-link:before {
-    .iconbefore( "\e000" );		// Icon styles and glyph
+    @include .iconbefore( "\e000" );		// Icon styles and glyph
 }
 ```
 
@@ -36,7 +36,7 @@ Or:
 ```
 // Appends an element with an icon
 .icon-link:after {
-    .iconafter( "\e000" );		// Icon styles and glyph
+    @include .iconafter( "\e000" );		// Icon styles and glyph
 
 }
 ```
@@ -44,6 +44,9 @@ Or:
 See `index.html` for the glyph references.
 
 ## Changelog
+
+### 30.10.2014 - 1.0.3
+* Added ccv icon
 
 ### 12.05.2013 - 1.0.2
 * Added edit icon

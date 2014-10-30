@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'WooCommerce';
-	src:url('fonts/WooCommerce.eot');
-	src:url('fonts/WooCommerce.eot?#iefix') format('embedded-opentype'),
-		url('fonts/WooCommerce.ttf') format('truetype'),
-		url('fonts/WooCommerce.woff') format('woff'),
-		url('fonts/WooCommerce.svg#WooCommerce') format('svg');
+	src:url('fonts/WooCommerce.eot?-m37ruz');
+	src:url('fonts/WooCommerce.eot?#iefix-m37ruz') format('embedded-opentype'),
+		url('fonts/WooCommerce.woff?-m37ruz') format('woff'),
+		url('fonts/WooCommerce.ttf?-m37ruz') format('truetype'),
+		url('fonts/WooCommerce.svg?-m37ruz#WooCommerce') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.wcicon-ccv:before {
+	content: "\e604";
+}
 .wcicon-virtual:before {
 	content: "\e000";
 }
