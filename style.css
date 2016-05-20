@@ -1,226 +1,231 @@
 @font-face {
-	font-family: 'WooCommerce';
-	src:url('fonts/WooCommerce.eot?-m37ruz');
-	src:url('fonts/WooCommerce.eot?#iefix-m37ruz') format('embedded-opentype'),
-		url('fonts/WooCommerce.woff?-m37ruz') format('woff'),
-		url('fonts/WooCommerce.ttf?-m37ruz') format('truetype'),
-		url('fonts/WooCommerce.svg?-m37ruz#WooCommerce') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'WooCommerce';
+    src:    url('fonts/WooCommerce.eot?jj1bj4');
+    src:    url('fonts/WooCommerce.eot?jj1bj4#iefix') format('embedded-opentype'),
+        url('fonts/WooCommerce.ttf?jj1bj4') format('truetype'),
+        url('fonts/WooCommerce.woff?jj1bj4') format('woff'),
+        url('fonts/WooCommerce.svg?jj1bj4#WooCommerce') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="wcicon-"], [class*=" wcicon-"] {
-	font-family: 'WooCommerce';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'WooCommerce' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+.wcicon-storefront:before {
+    content: "\e900";
+}
 .wcicon-ccv:before {
-	content: "\e604";
+    content: "\e604";
 }
 .wcicon-virtual:before {
-	content: "\e000";
+    content: "\e000";
 }
 .wcicon-up-down:before {
-	content: "\e022";
+    content: "\e022";
 }
 .wcicon-reports:before {
-	content: "\e023";
+    content: "\e023";
 }
 .wcicon-refresh:before {
-	content: "\e031";
+    content: "\e031";
 }
 .wcicon-navigation:before {
-	content: "\e032";
+    content: "\e032";
 }
 .wcicon-status-fill:before {
-	content: "\e03c";
+    content: "\e03c";
 }
 .wcicon-contract:before {
-	content: "\e004";
+    content: "\e004";
 }
 .wcicon-downloadable:before {
-	content: "\e001";
+    content: "\e001";
 }
 .wcicon-plus:before {
-	content: "\e007";
+    content: "\e007";
 }
 .wcicon-simple:before {
-	content: "\e006";
+    content: "\e006";
 }
 .wcicon-on-hold:before {
-	content: "\e033";
+    content: "\e033";
 }
 .wcicon-external:before {
-	content: "\e034";
+    content: "\e034";
 }
 .wcicon-contract-2:before {
-	content: "\e036";
+    content: "\e036";
 }
 .wcicon-expand-2:before {
-	content: "\e035";
+    content: "\e035";
 }
 .wcicon-phone:before {
-	content: "\e037";
+    content: "\e037";
 }
 .wcicon-user:before {
-	content: "\e038";
+    content: "\e038";
 }
 .wcicon-status:before {
-	content: "\e039";
+    content: "\e039";
 }
 .wcicon-status-pending:before {
-	content: "\e012";
+    content: "\e012";
 }
 .wcicon-status-cancelled:before {
-	content: "\e013";
+    content: "\e013";
 }
 .wcicon-west:before {
-	content: "\e02f";
+    content: "\e02f";
 }
 .wcicon-south:before {
-	content: "\e02e";
+    content: "\e02e";
 }
 .wcicon-mail:before {
-	content: "\e02d";
+    content: "\e02d";
 }
 .wcicon-inventory:before {
-	content: "\e02c";
+    content: "\e02c";
 }
 .wcicon-attributes:before {
-	content: "\e02b";
+    content: "\e02b";
 }
 .wcicon-north:before {
-	content: "\e02a";
+    content: "\e02a";
 }
 .wcicon-east:before {
-	content: "\e029";
+    content: "\e029";
 }
 .wcicon-note:before {
-	content: "\e028";
+    content: "\e028";
 }
 .wcicon-windows:before {
-	content: "\e027";
+    content: "\e027";
 }
 .wcicon-user2:before {
-	content: "\e026";
+    content: "\e026";
 }
 .wcicon-search-2:before {
-	content: "\e025";
+    content: "\e025";
 }
 .wcicon-search:before {
-	content: "\e024";
+    content: "\e024";
 }
 .wcicon-star-empty:before {
-	content: "\e021";
+    content: "\e021";
 }
 .wcicon-share:before {
-	content: "\e030";
+    content: "\e030";
 }
 .wcicon-phone-fill:before {
-	content: "\e03b";
+    content: "\e03b";
 }
 .wcicon-woo:before {
-	content: "\e03d";
+    content: "\e03d";
 }
 .wcicon-user-fill:before {
-	content: "\e03a";
+    content: "\e03a";
 }
 .wcicon-grouped:before {
-	content: "\e002";
+    content: "\e002";
 }
 .wcicon-status-refunded:before {
-	content: "\e014";
+    content: "\e014";
 }
 .wcicon-status-completed:before {
-	content: "\e015";
+    content: "\e015";
 }
 .wcicon-variable:before {
-	content: "\e003";
+    content: "\e003";
 }
 .wcicon-expand:before {
-	content: "\e005";
+    content: "\e005";
 }
 .wcicon-status-failed:before {
-	content: "\e016";
+    content: "\e016";
 }
 .wcicon-check:before {
-	content: "\e017";
+    content: "\e017";
 }
 .wcicon-right:before {
-	content: "\e008";
+    content: "\e008";
 }
 .wcicon-up:before {
-	content: "\e009";
+    content: "\e009";
 }
 .wcicon-query:before {
-	content: "\e018";
+    content: "\e018";
 }
 .wcicon-down:before {
-	content: "\e00a";
+    content: "\e00a";
 }
 .wcicon-truck-1:before {
-	content: "\e019";
+    content: "\e019";
 }
 .wcicon-left:before {
-	content: "\e00b";
+    content: "\e00b";
 }
 .wcicon-truck-2:before {
-	content: "\e01a";
+    content: "\e01a";
 }
 .wcicon-image:before {
-	content: "\e00c";
+    content: "\e00c";
 }
 .wcicon-globe:before {
-	content: "\e01b";
+    content: "\e01b";
 }
 .wcicon-link:before {
-	content: "\e00d";
+    content: "\e00d";
 }
 .wcicon-gear:before {
-	content: "\e01c";
+    content: "\e01c";
 }
 .wcicon-calendar:before {
-	content: "\e00e";
+    content: "\e00e";
 }
 .wcicon-cart:before {
-	content: "\e01d";
+    content: "\e01d";
 }
 .wcicon-processing:before {
-	content: "\e00f";
+    content: "\e00f";
 }
 .wcicon-card:before {
-	content: "\e01e";
+    content: "\e01e";
 }
 .wcicon-view:before {
-	content: "\e010";
+    content: "\e010";
 }
 .wcicon-stats:before {
-	content: "\e01f";
+    content: "\e01f";
 }
 .wcicon-status-processing:before {
-	content: "\e011";
+    content: "\e011";
 }
 .wcicon-star-full:before {
-	content: "\e020";
+    content: "\e020";
 }
 .wcicon-coupon:before {
-	content: "\e600";
+    content: "\e600";
 }
 .wcicon-limit:before {
-	content: "\e601";
+    content: "\e601";
 }
 .wcicon-restricted:before {
-	content: "\e602";
+    content: "\e602";
 }
 .wcicon-edit:before {
-	content: "\e603";
+    content: "\e603";
 }
+
