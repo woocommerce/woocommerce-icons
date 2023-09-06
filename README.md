@@ -6,7 +6,7 @@ The font used throughout the WooCommerce UI for all icons. Designed by WooThemes
 ## Usage - Independent
 When using the icons in a separate project.
 * Include `style.css`.
-* Apply relevant classes to elements, e.g. `<span class=".wcicon-virtual"></span>`.
+* Apply relevant classes to elements, e.g. `<span class="wcicon-virtual"></span>`.
 * Optionally include `lte-ie7.js` in conditional tags for support in IE7 and below.
 
 ## Usage - In WooCommerce extensions
